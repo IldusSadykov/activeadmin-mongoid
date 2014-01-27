@@ -19,8 +19,10 @@ Gem::Specification.new do |gem|
   gem.license       = 'MIT'
 
   gem.add_runtime_dependency 'mongoid'
-  gem.add_runtime_dependency 'rails',           '~> 4.0.2'
+  gem.add_runtime_dependency 'rails',           '~> 4.0.0'
   gem.add_runtime_dependency 'activeadmin'
+  gem.add_dependency 'actionpack', '~> 4.0.0'
+  gem.add_dependency 'activerecord', '~> 4.0.0'
 
   gem.add_development_dependency 'rspec-rails',  '~> 2.14'
 end
